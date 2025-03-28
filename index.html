@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>US Telephone Number Validator</title>
+</head>
+
+<body>
+  <h1>US Telephone Number Validator</h1>
+  <div id="telephone-container">
+    <div id="first-panel">
+      <div id="telephone-handset-bottom">
+        <div id="telephone-handset-top"></div>
+      </div>
+      <div id="telephone-handset-cable"></div>
+
+    </div>
+    <div id="border-panel" class="left"></div>
+    <div id="central-panel">
+      <section id="display-section">
+        <label for="user-input">Enter a phone Number</label>
+        <input type="text" id="user-input" required></input>
+        <div id="button-container>">
+          <button id="check-btn" class="button">CHECK</button>
+          <button id="clear-btn" class="button">CLEAR</button>
+        </div>
+      </section>
+      <section id="numeric-keyboard">
+        <button name="keyboard" id="keyboard-1" value="1" class="keyboard button">1</button>
+        <button name="keyboard" id="keyboard-2" value="2" class="keyboard button">2</button>
+        <button name="keyboard" id="keyboard-3" value="3" class="keyboard button">3</button>
+        <button name="keyboard" id="keyboard-4" value="4" class="keyboard button">4</button>
+        <button name="keyboard" id="keyboard-5" value="5" class="keyboard button">5</button>
+        <button name="keyboard" id="keyboard-6" value="6" class="keyboard button">6</button>
+        <button name="keyboard" id="keyboard-7" value="7" class="keyboard button">7</button>
+        <button name="keyboard" id="keyboard-8" value="8" class="keyboard button">8</button>
+        <button name="keyboard" id="keyboard-9" value="9" class="keyboard button">9</button>
+        <button name="keyboard" id="keyboard-*" value="*" class="keyboard button">*</button>
+        <button name="keyboard" id="keyboard-0" value="0" class="keyboard button">0</button>
+        <button name="keyboard" id="keyboard-#" value="#" class="keyboard button">#</button>
+      </section>
+      <section id="result">
+        <div id="results-div" value=""></div>
+      </section>
+    </div>
+    <div id="border-panel" class="right"></div>
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
