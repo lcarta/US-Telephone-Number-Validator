@@ -69,7 +69,7 @@ h1 {
 
 #telephone-handset-cable {
   position: relative;
-  top: 50px;
+  top: 55px;
   width: 80px;
   height: 220px;
   background: transparent;
@@ -152,11 +152,8 @@ input:hover {
 }
 
 @media screen and (max-width: 400px) {
-  body{
-    background-color:blue;
-  }
   h1 {
-    font-size:1em;
+    font-size:1.2em;
   }
   #results-div{
     font-size:1em;
