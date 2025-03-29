@@ -152,3 +152,11 @@ input:hover {
   overflow-wrap: break-word;
   overflow-y: auto;
 }
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size:1.3em;
+  }
+  #result-div{
+    font-size:1em
+  }
+  }
